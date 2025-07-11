@@ -1,0 +1,21 @@
+raw_name,clean_name,gender_pred,confidence,status
+anh Hiếu,hiếu,Nam,0.8838021,Success
+Chị Thương,thương,Nam,0.9196607,Success
+Nguyễn Văn Nam,nguyễn văn nam,Nam,0.9999999,Success
+bác sĩ Trần Thị Hoa,trần thị hoa,Nữ,1.0,Success
+tiến sĩ Lê Minh Tuấn,lê minh tuấn,Nam,0.9999838,Success
+cô Phạm Thu Hà,phạm thu hà,Nữ,0.9998708,Success
+Mr. John Smith,john smith,Nam,0.9693548,Success
+Dr. Nguyễn Xuân Sơn,nguyễn xuân sơn,Nam,0.99996406,Success
+anh Phạm Văn Đức,phạm văn đức,Nam,0.9999998,Success
+chị em Nguyễn Thị Mai,nguyễn thị mai,Nữ,1.0,Success
+Bà Lê Thị Lan,lê thị lan,Nữ,1.0,Success
+Giám đốc Hoàng Minh Quân,hoàng minh quân,Nam,0.99996805,Success
+Võ Thị Sáu,võ thị sáu,Nữ,1.0,Success
+Trần Hùng Đạo,trần hùng đạo,Nam,0.99993634,Success
+Lý Thái Tổ,lý thái tổ,Nam,0.9999145,Success
+Hồ Chí Minh,hồ chí minh,Nam,0.9997922,Success
+Ngô Bảo Châu,ngô bảo châu,Nữ,0.78978527,Success
+Nguyễn Thị Định,nguyễn thị định,Nữ,1.0,Success
+Lê Thanh Tùng,lê thanh tùng,Nam,0.9999894,Success
+Phạm Nhật Vượng,phạm nhật vượng,Nam,0.9974758,Success

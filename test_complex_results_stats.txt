@@ -1,0 +1,19 @@
+=== THỐNG KÊ DỰ ĐOÁN GIỚI TÍNH ===
+Ngày thực hiện: 2025-07-11 09:05:55
+File kết quả: ../test_complex_results.csv
+
+Tổng quan:
+- Tổng số tên: 10
+- Dự đoán thành công: 10 (100.0%)
+- Dự đoán thất bại: 0 (0.0%)
+
+Phân bố giới tính:
+- Nam: 6 (60.0%)
+- Nữ: 4 (40.0%)
+- Không xác định: 0 (0.0%)
+
+Độ tin cậy:
+- Độ tin cậy trung bình: 100.00%
+- Độ tin cậy cao (>90%): 10 (100.0% trong các dự đoán thành công)
+- Độ tin cậy trung bình (70-90%): 0 (0.0% trong các dự đoán thành công)
+- Độ tin cậy thấp (<70%): 0 (0.0% trong các dự đoán thành công)
