@@ -1,19 +1,53 @@
 ### tfjs-vn-name-to-gender
 
-This is a small project using `tensorflowjs`
+This is a Vietnamese name to gender prediction project that supports both **JavaScript (TensorFlow.js)** and **Python (TensorFlow/Keras)** implementations.
 
-The goal is to make a small app to predict the gender base on a person's name. It currently works only on vietnamese names. The accuracy of the trained model is 97%
+The goal is to predict gender based on Vietnamese names with 97% accuracy.
+
+### 🌐 Web Version (JavaScript)
+Open `index.html` in your browser to use the web interface.
+
+### 🐍 Python Version (NEW!)
+```bash
+cd python
+pip install -r requirements.txt
+python predict.py --name "Nguyễn Văn Nam"
+```
+
+See [README-VI.md](README-VI.md) for detailed Vietnamese documentation.
 
 ### How it's made
 
-1. Generate `dataset.csv` containing Name - Gender
-2. Train the model using tensorflow (keras) - More details in `LSTM.ipynb`
-3. Export the model to `model` folder (in JSON format)
-4. Import it into `tensorflowjs` on web
+1. Generate `dataset.csv` containing Name - Gender (63,773 Vietnamese names)
+2. Train the model using TensorFlow/Keras - More details in `LSTM.ipynb`
+3. Export models for both JavaScript and Python usage
+4. Character-level tokenization for better accuracy
+
+### Project Structure
+
+```
+📁 Repository/
+├── 📁 python/              # Python implementation
+│   ├── data_preprocessing.py
+│   ├── train_model.py
+│   ├── predict.py
+│   └── requirements.txt
+├── 📁 js/                  # JavaScript for web
+├── 📁 models/              # Trained models
+├── 📄 dataset.csv          # Training data
+├── 📄 index.html           # Web interface
+└── 📄 README-VI.md         # Vietnamese documentation
+```
 
 ### Changelog
 
-**v2.0**: tokenize by charater instead of word
+**v3.0**: Added Python implementation with TensorFlow/Keras
+- Complete Python package with preprocessing, training, and prediction
+- Vietnamese documentation
+- Command-line interface
+- Batch prediction support
+
+**v2.0**: tokenize by character instead of word
 
 **v1.0**: initial version, tokenize by word
 
