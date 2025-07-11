@@ -147,3 +147,7 @@ models/training_history.png
 *.temp
 test_names.txt
 sample_data.csv
+
+# Test files for batch prediction
+test_*.csv
+*_stats.txt

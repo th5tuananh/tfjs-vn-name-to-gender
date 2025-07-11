@@ -60,7 +60,20 @@ class BatchCSVPredictor:
             
             # Tải dữ liệu để fit preprocessor
             import pandas as pd
-            data = pd.read_csv('../dataset.csv', header=None, names=['name', 'gender'])
+            # Try different possible paths for dataset
+            dataset_paths = ['../dataset.csv', './dataset.csv', 'dataset.csv']
+            data = None
+            
+            for path in dataset_paths:
+                try:
+                    data = pd.read_csv(path, header=None, names=['name', 'gender'])
+                    break
+                except FileNotFoundError:
+                    continue
+            
+            if data is None:
+                raise FileNotFoundError("Could not find dataset.csv in any of the expected locations")
+            
             self.preprocessor.preprocess_labels(data['gender'].values)
             
             self.logger.info("Đã tạo preprocessor mới")
